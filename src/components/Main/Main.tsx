@@ -12,7 +12,7 @@ const Main: React.FC = () => {
 
     useEffect(() => {
         dispatch(fetchCharacterData(page))
-    }, [page])
+    }, [dispatch, page])
 
     const itemsList = characterState?.data?.map((el, index) => <ItemCard key={index} item={el}/>)
 

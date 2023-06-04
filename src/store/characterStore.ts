@@ -1,6 +1,5 @@
 import {ICharacterStoreData} from "../contract/data";
 import {createAsyncThunk, createSlice, PayloadAction} from "@reduxjs/toolkit";
-import {Simulate} from "react-dom/test-utils";
 
 const initialState:ICharacterStoreData = {
     pagination: {
@@ -80,6 +79,6 @@ export const characterSlice = createSlice({
     }
 })
 
-export const {} = characterSlice.actions
+// export const {} = characterSlice.actions
 
 export default characterSlice.reducer
