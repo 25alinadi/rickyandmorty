@@ -1,7 +1,6 @@
 import {ICharacterStoreData} from "../contract/data";
 import {createAsyncThunk, createSlice, PayloadAction} from "@reduxjs/toolkit";
 import {Simulate} from "react-dom/test-utils";
-import load = Simulate.load;
 
 const initialState:ICharacterStoreData = {
     pagination: {

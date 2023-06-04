@@ -2,7 +2,6 @@ import React, {useEffect, useState} from "react";
 import ItemCard from "./ItemCard";
 import {useAppDispatch} from "../../hooks/useAppDispatch";
 import {useAppSelector} from "../../hooks/useAppSelector";
-import * as console from "console";
 import {fetchCharacterData} from "../../store/characterStore";
 import MyPagination from "../MyPagination";
 
