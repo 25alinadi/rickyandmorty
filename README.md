@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Ricky And Morty Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Rick and Morty API is a free and public API that offers a wide range of information about the show. It serves as a valuable resource for developers who want to incorporate "Rick and Morty" data into their own applications, websites, or projects. The API provides a simple and structured way to access various endpoints and retrieve data in a machine-readable format, usually in JSON (JavaScript Object Notation).
+
+By utilizing the Rick and Morty API, developers can access data such as character information, episode details, location data, and even retrieve random quotes from the show. This allows them to create applications that display character profiles, generate quizzes, build episode guides, or even develop interactive games based on the "Rick and Morty" universe.
+
+I try to create website similarly to main website and use https://rickandmortyapi.com/graphql for get data and showing to client.
+
+I use reactjs, typescript, MUI, tailwind css and for state management use redux-toolkit.
 
 ## Available Scripts
 
